@@ -1,4 +1,3 @@
-//Clear nth bit
-int clearBit(int num, int n) {
-    return num & ~(1 << n);
-}
+#Clear nth bit
+def clear_bit(num, n):
+    return num & ~(1 << n)
